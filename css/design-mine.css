@@ -19,6 +19,14 @@ header {
     font-family: 'Abel', sans-serif;
 }
 
+h1{
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 60px;
+}
+
 .logo {
     font-size:40px;
 }
@@ -76,3 +84,78 @@ header {
     font-family: 'Abel', sans-serif;
     font-size: 25px;
 }
+
+.card-text{
+    font-size: 20px;
+}
+
+.d1{
+    font-family: 'Anton', sans-serif;
+    border-radius: 50%;
+    background-color: var(--clr-redorange);
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+
+}
+.d2{
+    font-family: 'Anton', sans-serif;
+    border-radius: 50%;
+    background-color: var(--clr-orange);
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+
+}
+
+.s{
+    font-family: 'Anton', sans-serif;
+    border-radius: 50%;
+    background-color: var(--clr-green);
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+}
+.h{
+    font-family: 'Anton', sans-serif;
+    border-radius: 50%;
+    background-color: var(--clr-blue);
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.pic-border {
+    border: 10px solid #E6E6E6;
+    box-shadow: black;
+    color: white;
+}
+
+@media (max-width: 580px){
+
+}
+
+@media (max-width: 768px) {
+    .side-text {
+        display: none;
+    }
+    .med-size {
+        display: none;
+    }
+    .med-size-section-top {
+        font-size: 50px;
+    }
+    .med-size-section-bottom{
+        font-size: 40px;
+    }
+
+
+}
+
+@media (min-width: 2560px){
+    .container
+    {max-width: 1900px;
+    }
+}
+
+
